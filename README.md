@@ -95,7 +95,7 @@ handleLastNameChange = event => {
     lastName: event.target.value
   })
 }
-```
+
 
 The `event` contains data about the `target`, which is whatever DOM element the
 `event` was triggered on. That `target`, being an `input`, has a `value`
